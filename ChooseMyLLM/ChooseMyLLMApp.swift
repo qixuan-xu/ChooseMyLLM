@@ -17,7 +17,7 @@ struct ChooseMyLLMApp: App {
         Window(AppConfiguration.displayName, id: "main") {
             MainWindowContent()
         }
-        .defaultSize(width: 900, height: 600)
+        .defaultSize(width: 960, height: 700)
         .defaultPosition(.center)
         .windowResizability(.contentMinSize)
         .restorationBehavior(.disabled)
@@ -50,8 +50,8 @@ private struct MainWindowContent: View {
     @Environment(\.dismissWindow) private var dismissWindow
 
     var body: some View {
-        SecondView()
-            .frame(minWidth: 500, minHeight: 360)
+        MainView()
+            .frame(minWidth: 800, minHeight: 560)
             .frame(maxWidth: .infinity, maxHeight: .infinity)
             .onAppear {
                 // Keep the splash visible until the main content has appeared.

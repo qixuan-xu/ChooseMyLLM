@@ -1,0 +1,409 @@
+{
+  "query": {
+    "search": "",
+    "sort": "downloads",
+    "task": "text-generation",
+    "chineseOnly": false
+  },
+  "fetchedAt": 813346493.83145,
+  "models": [
+    {
+      "_id": "680da718233834890aa01f51",
+      "id": "Qwen/Qwen3-0.6B",
+      "gated": false,
+      "lastModified": "2025-07-26T03:46:27.000Z",
+      "likes": 1764,
+      "downloads": 30768858,
+      "safetensors": {
+        "parameters": {
+          "BF16": 751632384
+        },
+        "total": 751632384
+      },
+      "tags": [
+        "transformers",
+        "safetensors",
+        "qwen3",
+        "text-generation",
+        "conversational",
+        "arxiv:2505.09388",
+        "base_model:Qwen/Qwen3-0.6B-Base",
+        "base_model:finetune:Qwen/Qwen3-0.6B-Base",
+        "license:apache-2.0",
+        "text-generation-inference",
+        "endpoints_compatible",
+        "deploy:sagemaker",
+        "deploy:azure",
+        "region:us"
+      ],
+      "pipeline_tag": "text-generation"
+    },
+    {
+      "_id": "621ffdc036468d709f17434d",
+      "id": "openai-community/gpt2",
+      "gated": false,
+      "lastModified": "2024-02-19T10:57:45.000Z",
+      "likes": 4221,
+      "downloads": 15521105,
+      "safetensors": {
+        "parameters": {
+          "F32": 137022720
+        },
+        "total": 137022720
+      },
+      "tags": [
+        "transformers",
+        "pytorch",
+        "tf",
+        "jax",
+        "tflite",
+        "rust",
+        "onnx",
+        "safetensors",
+        "gpt2",
+        "text-generation",
+        "exbert",
+        "en",
+        "doi:10.57967/hf/0039",
+        "license:mit",
+        "text-generation-inference",
+        "endpoints_compatible",
+        "deploy:azure",
+        "region:us"
+      ],
+      "pipeline_tag": "text-generation"
+    },
+    {
+      "_id": "680da769038897aa905586a7",
+      "id": "Qwen/Qwen3-4B",
+      "gated": false,
+      "lastModified": "2025-07-26T03:46:39.000Z",
+      "likes": 730,
+      "downloads": 10600642,
+      "safetensors": {
+        "parameters": {
+          "BF16": 4022468096
+        },
+        "total": 4022468096
+      },
+      "tags": [
+        "transformers",
+        "safetensors",
+        "qwen3",
+        "text-generation",
+        "conversational",
+        "arxiv:2309.00071",
+        "arxiv:2505.09388",
+        "base_model:Qwen/Qwen3-4B-Base",
+        "base_model:finetune:Qwen/Qwen3-4B-Base",
+        "license:apache-2.0",
+        "text-generation-inference",
+        "endpoints_compatible",
+        "region:us",
+        "deploy:sagemaker",
+        "deploy:azure"
+      ],
+      "pipeline_tag": "text-generation"
+    },
+    {
+      "_id": "680da79d48c19d19cf82ab5e",
+      "id": "Qwen/Qwen3-8B",
+      "gated": false,
+      "lastModified": "2025-07-26T03:49:13.000Z",
+      "likes": 2083,
+      "downloads": 9821408,
+      "safetensors": {
+        "parameters": {
+          "BF16": 8190735360
+        },
+        "total": 8190735360
+      },
+      "tags": [
+        "transformers",
+        "safetensors",
+        "qwen3",
+        "text-generation",
+        "conversational",
+        "arxiv:2309.00071",
+        "arxiv:2505.09388",
+        "base_model:Qwen/Qwen3-8B-Base",
+        "base_model:finetune:Qwen/Qwen3-8B-Base",
+        "license:apache-2.0",
+        "eval-results",
+        "text-generation-inference",
+        "endpoints_compatible",
+        "deploy:sagemaker",
+        "deploy:azure",
+        "region:us"
+      ],
+      "pipeline_tag": "text-generation"
+    },
+    {
+      "_id": "66e81cbcd683a3f4e5291bbf",
+      "id": "Qwen/Qwen2.5-7B-Instruct",
+      "gated": false,
+      "lastModified": "2025-01-12T02:10:10.000Z",
+      "likes": 2416,
+      "downloads": 8077595,
+      "safetensors": {
+        "parameters": {
+          "BF16": 7615616512
+        },
+        "total": 7615616512
+      },
+      "tags": [
+        "transformers",
+        "safetensors",
+        "qwen2",
+        "text-generation",
+        "chat",
+        "conversational",
+        "en",
+        "arxiv:2309.00071",
+        "arxiv:2407.10671",
+        "base_model:Qwen/Qwen2.5-7B",
+        "base_model:finetune:Qwen/Qwen2.5-7B",
+        "license:apache-2.0",
+        "eval-results",
+        "text-generation-inference",
+        "endpoints_compatible",
+        "deploy:sagemaker",
+        "deploy:azure",
+        "region:us"
+      ],
+      "pipeline_tag": "text-generation"
+    },
+    {
+      "_id": "66e81c0ecfd2f50991047e92",
+      "id": "Qwen/Qwen2.5-0.5B-Instruct",
+      "gated": false,
+      "lastModified": "2024-09-25T12:32:56.000Z",
+      "likes": 665,
+      "downloads": 7302712,
+      "safetensors": {
+        "parameters": {
+          "BF16": 494032768
+        },
+        "total": 494032768
+      },
+      "tags": [
+        "transformers",
+        "safetensors",
+        "qwen2",
+        "text-generation",
+        "chat",
+        "conversational",
+        "en",
+        "arxiv:2407.10671",
+        "base_model:Qwen/Qwen2.5-0.5B",
+        "base_model:finetune:Qwen/Qwen2.5-0.5B",
+        "license:apache-2.0",
+        "text-generation-inference",
+        "endpoints_compatible",
+        "deploy:azure",
+        "region:us"
+      ],
+      "pipeline_tag": "text-generation"
+    },
+    {
+      "_id": "66eaedefece5ee215637cc82",
+      "id": "meta-llama/Llama-3.2-1B-Instruct",
+      "gated": "manual",
+      "lastModified": "2024-10-24T15:07:51.000Z",
+      "likes": 1808,
+      "downloads": 6976807,
+      "safetensors": {
+        "parameters": {
+          "BF16": 1235814400
+        },
+        "total": 1235814400
+      },
+      "tags": [
+        "transformers",
+        "safetensors",
+        "llama",
+        "text-generation",
+        "facebook",
+        "meta",
+        "pytorch",
+        "llama-3",
+        "conversational",
+        "en",
+        "de",
+        "fr",
+        "it",
+        "pt",
+        "hi",
+        "es",
+        "th",
+        "arxiv:2204.05149",
+        "arxiv:2405.16406",
+        "license:llama3.2",
+        "eval-results",
+        "text-generation-inference",
+        "endpoints_compatible",
+        "region:us",
+        "deploy:sagemaker"
+      ],
+      "pipeline_tag": "text-generation"
+    },
+    {
+      "_id": "66e98dd5899bdb384bd953b4",
+      "id": "Qwen/Qwen2.5-1.5B-Instruct",
+      "gated": false,
+      "lastModified": "2024-09-25T12:32:50.000Z",
+      "likes": 872,
+      "downloads": 6473697,
+      "safetensors": {
+        "parameters": {
+          "BF16": 1543714304
+        },
+        "total": 1543714304
+      },
+      "tags": [
+        "transformers",
+        "safetensors",
+        "qwen2",
+        "text-generation",
+        "chat",
+        "conversational",
+        "en",
+        "arxiv:2407.10671",
+        "base_model:Qwen/Qwen2.5-1.5B",
+        "base_model:finetune:Qwen/Qwen2.5-1.5B",
+        "license:apache-2.0",
+        "text-generation-inference",
+        "endpoints_compatible",
+        "region:us",
+        "deploy:azure"
+      ],
+      "pipeline_tag": "text-generation"
+    },
+    {
+      "_id": "67449267a8b7b9f766e74310",
+      "id": "trl-internal-testing/tiny-Qwen2ForCausalLM-2.5",
+      "gated": false,
+      "lastModified": "2026-09-08T04:47:15.000Z",
+      "likes": 56,
+      "downloads": 6239622,
+      "safetensors": {
+        "parameters": {
+          "BF16": 2435016
+        },
+        "total": 2435016
+      },
+      "tags": [
+        "transformers",
+        "safetensors",
+        "qwen2",
+        "text-generation",
+        "trl",
+        "conversational",
+        "text-generation-inference",
+        "endpoints_compatible",
+        "region:us"
+      ],
+      "pipeline_tag": "text-generation"
+    },
+    {
+      "_id": "627b72ed67b1ac7afa4c42a7",
+      "id": "facebook/opt-125m",
+      "gated": false,
+      "lastModified": "2023-09-15T13:10:03.000Z",
+      "likes": 324,
+      "downloads": 6031770,
+      "tags": [
+        "transformers",
+        "pytorch",
+        "tf",
+        "jax",
+        "opt",
+        "text-generation",
+        "en",
+        "arxiv:2205.01068",
+        "arxiv:2005.14165",
+        "license:other",
+        "text-generation-inference",
+        "region:us",
+        "deploy:azure"
+      ],
+      "pipeline_tag": "text-generation"
+    },
+    {
+      "_id": "6698d8a0653e4babe21e1e7d",
+      "id": "meta-llama/Llama-3.1-8B-Instruct",
+      "gated": "manual",
+      "lastModified": "2024-09-25T17:00:57.000Z",
+      "likes": 8324,
+      "downloads": 6015326,
+      "safetensors": {
+        "parameters": {
+          "BF16": 8030261248
+        },
+        "total": 8030261248
+      },
+      "tags": [
+        "transformers",
+        "safetensors",
+        "llama",
+        "text-generation",
+        "facebook",
+        "meta",
+        "pytorch",
+        "llama-3",
+        "conversational",
+        "en",
+        "de",
+        "fr",
+        "it",
+        "pt",
+        "hi",
+        "es",
+        "th",
+        "arxiv:2204.05149",
+        "base_model:meta-llama/Llama-3.1-8B",
+        "base_model:finetune:meta-llama/Llama-3.1-8B",
+        "license:llama3.1",
+        "eval-results",
+        "text-generation-inference",
+        "endpoints_compatible",
+        "region:us",
+        "deploy:sagemaker"
+      ],
+      "pipeline_tag": "text-generation"
+    },
+    {
+      "_id": "68913539bd3d0a833438591d",
+      "id": "openai/gpt-oss-20b",
+      "gated": false,
+      "lastModified": "2025-08-26T17:25:47.000Z",
+      "likes": 5149,
+      "downloads": 5950578,
+      "safetensors": {
+        "parameters": {
+          "BF16": 1804459584,
+          "U8": 19110297600
+        },
+        "total": 20914757184
+      },
+      "tags": [
+        "transformers",
+        "safetensors",
+        "gpt_oss",
+        "text-generation",
+        "vllm",
+        "conversational",
+        "arxiv:2508.10925",
+        "license:apache-2.0",
+        "eval-results",
+        "endpoints_compatible",
+        "8-bit",
+        "mxfp4",
+        "deploy:sagemaker",
+        "deploy:azure",
+        "region:us"
+      ],
+      "pipeline_tag": "text-generation"
+    }
+  ]
+}

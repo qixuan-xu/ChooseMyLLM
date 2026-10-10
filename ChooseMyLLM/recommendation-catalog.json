@@ -1,0 +1,373 @@
+{
+  "profiles": [
+    {
+      "id": "unsloth/Qwen3.5-2B-GGUF",
+      "name": "Qwen 3.5 2B",
+      "location": "On my Mac",
+      "files": [
+        "Qwen3.5-2B-Q4_K_M.gguf"
+      ],
+      "variant": "Q4_K_M",
+      "minimumMemoryGB": 8,
+      "chineseFocused": true,
+      "freeToUse": true,
+      "speed": 5,
+      "quality": 2,
+      "taskFit": {
+        "Everyday tasks": 3,
+        "Coding": 2,
+        "Writing": 2,
+        "Studying": 3
+      },
+      "strength": "A lightweight starting point for everyday questions and short explanations.",
+      "tradeoff": "Smaller models are more limited on complex tasks. Community quantization by Unsloth."
+    },
+    {
+      "id": "unsloth/Qwen3.5-4B-GGUF",
+      "name": "Qwen 3.5 4B",
+      "location": "On my Mac",
+      "files": [
+        "Qwen3.5-4B-Q4_K_M.gguf"
+      ],
+      "variant": "Q4_K_M",
+      "minimumMemoryGB": 12,
+      "chineseFocused": true,
+      "freeToUse": true,
+      "speed": 4,
+      "quality": 3,
+      "taskFit": {
+        "Everyday tasks": 4,
+        "Coding": 3,
+        "Writing": 4,
+        "Studying": 4
+      },
+      "strength": "A compact general-purpose option for chatting, drafting, and learning.",
+      "tradeoff": "An estimated balance of capability and resource use. Community quantization by Unsloth."
+    },
+    {
+      "id": "unsloth/Qwen3.5-9B-GGUF",
+      "name": "Qwen 3.5 9B",
+      "location": "On my Mac",
+      "files": [
+        "Qwen3.5-9B-Q4_K_M.gguf"
+      ],
+      "variant": "Q4_K_M",
+      "minimumMemoryGB": 16,
+      "chineseFocused": true,
+      "freeToUse": true,
+      "speed": 3,
+      "quality": 4,
+      "taskFit": {
+        "Everyday tasks": 4,
+        "Coding": 4,
+        "Writing": 4,
+        "Studying": 4
+      },
+      "strength": "A larger all-round option for more involved questions and explanations.",
+      "tradeoff": "Uses more resources than the 2B and 4B choices. Community quantization by Unsloth."
+    },
+    {
+      "id": "Qwen/Qwen2.5-Coder-7B-Instruct-GGUF",
+      "name": "Qwen 2.5 Coder 7B",
+      "location": "On my Mac",
+      "files": [
+        "qwen2.5-coder-7b-instruct-q4_k_m.gguf"
+      ],
+      "variant": "Q4_K_M",
+      "minimumMemoryGB": 16,
+      "chineseFocused": true,
+      "freeToUse": true,
+      "speed": 3,
+      "quality": 3,
+      "taskFit": {
+        "Everyday tasks": 2,
+        "Coding": 5,
+        "Writing": 2,
+        "Studying": 3
+      },
+      "strength": "A code-focused model for writing, explaining, and debugging code.",
+      "tradeoff": "An older specialist, not a claim of best current coding performance."
+    },
+    {
+      "id": "ggml-org/gemma-3-4b-it-GGUF",
+      "name": "Gemma 3 4B",
+      "location": "On my Mac",
+      "files": [
+        "gemma-3-4b-it-Q4_K_M.gguf",
+        "mmproj-model-f16.gguf"
+      ],
+      "variant": "Q4_K_M",
+      "minimumMemoryGB": 12,
+      "chineseFocused": false,
+      "freeToUse": true,
+      "speed": 4,
+      "quality": 3,
+      "taskFit": {
+        "Everyday tasks": 4,
+        "Coding": 2,
+        "Writing": 5,
+        "Studying": 4
+      },
+      "strength": "A conversational alternative for drafts, summaries, and general questions.",
+      "tradeoff": "Not in our Chinese-focused shortlist. That does not mean Chinese is unsupported."
+    },
+    {
+      "id": "Qwen/Qwen3-14B-GGUF",
+      "name": "Qwen 3 14B",
+      "location": "On my Mac",
+      "files": [
+        "Qwen3-14B-Q4_K_M.gguf"
+      ],
+      "variant": "Q4_K_M",
+      "minimumMemoryGB": 24,
+      "chineseFocused": true,
+      "freeToUse": true,
+      "speed": 2,
+      "quality": 5,
+      "taskFit": {
+        "Everyday tasks": 4,
+        "Coding": 4,
+        "Writing": 5,
+        "Studying": 5
+      },
+      "strength": "A larger reasoning candidate when answer quality matters more than speed.",
+      "tradeoff": "Expect more memory use and slower responses. The quality preference is a curated estimate, not a benchmark."
+    },
+    {
+      "id": "Qwen/Qwen3-8B",
+      "name": "Qwen 3 8B",
+      "location": "In the cloud",
+      "files": [],
+      "variant": "Hosted API",
+      "minimumMemoryGB": 0,
+      "chineseFocused": true,
+      "freeToUse": false,
+      "speed": 4,
+      "quality": 3,
+      "taskFit": {
+        "Everyday tasks": 4,
+        "Coding": 3,
+        "Writing": 4,
+        "Studying": 4
+      },
+      "strength": "A hosted all-round option that does not use your Mac memory for inference.",
+      "tradeoff": "Provider account and charges may apply; there is no verified free hosted tier here."
+    },
+    {
+      "id": "Qwen/Qwen3-Coder-30B-A3B-Instruct",
+      "name": "Qwen 3 Coder 30B A3B",
+      "location": "In the cloud",
+      "files": [],
+      "variant": "Hosted API",
+      "minimumMemoryGB": 0,
+      "chineseFocused": true,
+      "freeToUse": false,
+      "speed": 3,
+      "quality": 5,
+      "taskFit": {
+        "Everyday tasks": 3,
+        "Coding": 5,
+        "Writing": 3,
+        "Studying": 3
+      },
+      "strength": "A hosted coding specialist for code generation and software tasks.",
+      "tradeoff": "Provider pricing and availability can change. No inference is performed inside this app."
+    },
+    {
+      "id": "Qwen/Qwen3-32B",
+      "name": "Qwen 3 32B",
+      "location": "In the cloud",
+      "files": [],
+      "variant": "Hosted API",
+      "minimumMemoryGB": 0,
+      "chineseFocused": true,
+      "freeToUse": false,
+      "speed": 2,
+      "quality": 5,
+      "taskFit": {
+        "Everyday tasks": 4,
+        "Coding": 4,
+        "Writing": 5,
+        "Studying": 5
+      },
+      "strength": "A larger hosted reasoning option without local model memory requirements.",
+      "tradeoff": "Network latency and provider charges apply; verify pricing before use."
+    }
+  ],
+  "records": {
+    "unsloth/Qwen3.5-2B-GGUF": {
+      "model": {
+        "id": "unsloth/Qwen3.5-2B-GGUF",
+        "gated": false,
+        "siblings": [
+          {
+            "rfilename": "Qwen3.5-2B-Q4_K_M.gguf",
+            "size": 1280835840
+          }
+        ]
+      },
+      "checkedAt": 813347383.461821,
+      "unavailable": false
+    },
+    "unsloth/Qwen3.5-4B-GGUF": {
+      "model": {
+        "id": "unsloth/Qwen3.5-4B-GGUF",
+        "gated": false,
+        "siblings": [
+          {
+            "rfilename": "Qwen3.5-4B-Q4_K_M.gguf",
+            "size": 2740937888
+          }
+        ]
+      },
+      "checkedAt": 813347383.461821,
+      "unavailable": false
+    },
+    "unsloth/Qwen3.5-9B-GGUF": {
+      "model": {
+        "id": "unsloth/Qwen3.5-9B-GGUF",
+        "gated": false,
+        "siblings": [
+          {
+            "rfilename": "Qwen3.5-9B-Q4_K_M.gguf",
+            "size": 5680522464
+          }
+        ]
+      },
+      "checkedAt": 813347383.461821,
+      "unavailable": false
+    },
+    "Qwen/Qwen2.5-Coder-7B-Instruct-GGUF": {
+      "model": {
+        "id": "Qwen/Qwen2.5-Coder-7B-Instruct-GGUF",
+        "gated": false,
+        "siblings": [
+          {
+            "rfilename": "qwen2.5-coder-7b-instruct-q4_k_m.gguf",
+            "size": 4683073536
+          }
+        ]
+      },
+      "checkedAt": 813347383.461821,
+      "unavailable": false
+    },
+    "ggml-org/gemma-3-4b-it-GGUF": {
+      "model": {
+        "id": "ggml-org/gemma-3-4b-it-GGUF",
+        "gated": false,
+        "siblings": [
+          {
+            "rfilename": "gemma-3-4b-it-Q4_K_M.gguf",
+            "size": 2489757856
+          },
+          {
+            "rfilename": "mmproj-model-f16.gguf",
+            "size": 851251104
+          }
+        ]
+      },
+      "checkedAt": 813347383.461821,
+      "unavailable": false
+    },
+    "Qwen/Qwen3-14B-GGUF": {
+      "model": {
+        "id": "Qwen/Qwen3-14B-GGUF",
+        "gated": false,
+        "siblings": [
+          {
+            "rfilename": "Qwen3-14B-Q4_K_M.gguf",
+            "size": 9001752960
+          }
+        ]
+      },
+      "checkedAt": 813347383.461821,
+      "unavailable": false
+    },
+    "Qwen/Qwen3-8B": {
+      "model": {
+        "id": "Qwen/Qwen3-8B",
+        "inferenceProviderMapping": {
+          "nscale": {
+            "status": "live",
+            "providerId": "Qwen/Qwen3-8B",
+            "task": "conversational",
+            "isModelAuthor": false
+          },
+          "featherless-ai": {
+            "status": "live",
+            "providerId": "Qwen/Qwen3-8B",
+            "task": "conversational",
+            "isModelAuthor": false
+          }
+        },
+        "siblings": []
+      },
+      "checkedAt": 813347383.461821,
+      "unavailable": false
+    },
+    "Qwen/Qwen3-Coder-30B-A3B-Instruct": {
+      "model": {
+        "id": "Qwen/Qwen3-Coder-30B-A3B-Instruct",
+        "gated": false,
+        "inferenceProviderMapping": {
+          "featherless-ai": {
+            "status": "live",
+            "providerId": "Qwen/Qwen3-Coder-30B-A3B-Instruct",
+            "task": "conversational",
+            "isModelAuthor": false
+          },
+          "scaleway": {
+            "status": "live",
+            "providerId": "qwen3-coder-30b-a3b-instruct",
+            "task": "conversational",
+            "isModelAuthor": false
+          }
+        },
+        "siblings": []
+      },
+      "checkedAt": 813347383.461821,
+      "unavailable": false
+    },
+    "Qwen/Qwen3-32B": {
+      "model": {
+        "id": "Qwen/Qwen3-32B",
+        "gated": false,
+        "inferenceProviderMapping": {
+          "nscale": {
+            "status": "live",
+            "providerId": "Qwen/Qwen3-32B",
+            "task": "conversational",
+            "isModelAuthor": false
+          },
+          "featherless-ai": {
+            "status": "live",
+            "providerId": "Qwen/Qwen3-32B",
+            "task": "conversational",
+            "isModelAuthor": false
+          },
+          "deepinfra": {
+            "status": "live",
+            "providerId": "Qwen/Qwen3-32B",
+            "task": "conversational",
+            "isModelAuthor": false
+          },
+          "groq": {
+            "status": "error",
+            "providerId": "qwen/qwen3-32b",
+            "task": "conversational",
+            "isModelAuthor": false
+          },
+          "novita": {
+            "status": "error",
+            "providerId": "qwen/qwen3-32b-fp8",
+            "task": "conversational",
+            "isModelAuthor": false
+          }
+        },
+        "siblings": []
+      },
+      "checkedAt": 813347383.461821,
+      "unavailable": false
+    }
+  }
+}
